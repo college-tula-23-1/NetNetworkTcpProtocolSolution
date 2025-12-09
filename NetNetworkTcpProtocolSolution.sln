@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNetworkTcpWelcomeProject", "NetNetworkTcpWelcomeProject\NetNetworkTcpWelcomeProject.csproj", "{59477CCF-FB86-4D54-9DFC-8EFE214C144D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNetworkTcpServerSocketProject", "NetNetworkTcpServerSocketProject\NetNetworkTcpServerSocketProject.csproj", "{5AFBAC3B-49E4-4E17-8DF5-3EF796AF14F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNetworkTcpClientSocketProject", "NetNetworkTcpClientSocketProject\NetNetworkTcpClientSocketProject.csproj", "{D1021E95-BE2F-4D15-93DB-A2BD3C606462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNetworkTcpClientProject", "NetNetworkTcpClientProject\NetNetworkTcpClientProject.csproj", "{E9E02932-1C5D-4463-8D8A-E6C56F1CD3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNetworkTcpListenerProject", "NetNetworkTcpListenerProject\NetNetworkTcpListenerProject.csproj", "{CE3049E4-A72A-4E8D-AA35-EA44955FFA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNetworkTranslateListenerProject", "NetNetworkTranslateListenerProject\NetNetworkTranslateListenerProject.csproj", "{D08FAF92-8C90-485A-9805-214442DB7A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNetworkTranslateClientProject", "NetNetworkTranslateClientProject\NetNetworkTranslateClientProject.csproj", "{20D3B34F-0691-4E99-ADB4-2455FDCF7373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59477CCF-FB86-4D54-9DFC-8EFE214C144D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59477CCF-FB86-4D54-9DFC-8EFE214C144D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59477CCF-FB86-4D54-9DFC-8EFE214C144D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59477CCF-FB86-4D54-9DFC-8EFE214C144D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFBAC3B-49E4-4E17-8DF5-3EF796AF14F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFBAC3B-49E4-4E17-8DF5-3EF796AF14F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFBAC3B-49E4-4E17-8DF5-3EF796AF14F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFBAC3B-49E4-4E17-8DF5-3EF796AF14F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1021E95-BE2F-4D15-93DB-A2BD3C606462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1021E95-BE2F-4D15-93DB-A2BD3C606462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1021E95-BE2F-4D15-93DB-A2BD3C606462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1021E95-BE2F-4D15-93DB-A2BD3C606462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E02932-1C5D-4463-8D8A-E6C56F1CD3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E02932-1C5D-4463-8D8A-E6C56F1CD3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E02932-1C5D-4463-8D8A-E6C56F1CD3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E02932-1C5D-4463-8D8A-E6C56F1CD3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3049E4-A72A-4E8D-AA35-EA44955FFA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3049E4-A72A-4E8D-AA35-EA44955FFA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3049E4-A72A-4E8D-AA35-EA44955FFA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3049E4-A72A-4E8D-AA35-EA44955FFA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08FAF92-8C90-485A-9805-214442DB7A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08FAF92-8C90-485A-9805-214442DB7A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08FAF92-8C90-485A-9805-214442DB7A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08FAF92-8C90-485A-9805-214442DB7A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D3B34F-0691-4E99-ADB4-2455FDCF7373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D3B34F-0691-4E99-ADB4-2455FDCF7373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D3B34F-0691-4E99-ADB4-2455FDCF7373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D3B34F-0691-4E99-ADB4-2455FDCF7373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9417E0BA-F2DD-47D6-8A52-89D0DB466534}
+	EndGlobalSection
+EndGlobal
