@@ -19,7 +19,7 @@ namespace NetNetworkTcpChatServer
             this.address = Dns.GetHostAddresses(Dns.GetHostName(), AddressFamily.InterNetwork)[0];
             this.port = port;
 
-            listener = new TcpListener(IPAddress.Any, this.port);
+            listener = new TcpListener(this.address, this.port);
             clients = new List<TcpChatClient>();
         }
 
